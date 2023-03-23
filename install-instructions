@@ -37,6 +37,7 @@ cd muon-node
 curl -o docker-compose.yml https://raw.githubusercontent.com/muon-protocol/muon-node-js/testnet/docker-compose-pull.yml
 docker compose up -d
 
+Если было еще что-то в докере -> перезапустить!
 Ждем пару минут...
 Выполняем команду и переходим по ссылке которую выдали
 echo http://$(wget -qO- eth0.me):8000/status
